@@ -27,10 +27,7 @@
                                <a class="nav-link" aria-current="page" href="./index.php">Home</a>
                              </li>
                              
-                             <li class="nav-item">
-                               <a class="nav-link" aria-current="page" href="./gallery.php">Gallery</a>
-                             </li>
-                           
+                         
                              <li class="nav-item">
                                <a class="nav-link act" aria-current="page" href="./packages.php">Packages</a>
                              </li>
