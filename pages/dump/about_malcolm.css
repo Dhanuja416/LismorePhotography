@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .main img{
+    width: 580px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+.all-text{
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+

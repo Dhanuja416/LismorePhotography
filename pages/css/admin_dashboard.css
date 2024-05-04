@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: transparent;
+    width:100vw;
+}
+.header-line{
+    height:80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.61));
+    color:white;
+    justify-content: space-around;
+    text-align: justify;
+    vertical-align: middle;
+    padding:10px;
+}
+.header-line h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.side-bar{
+    width: 15vw;
+    height:92vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.61));
+    
+    }
+.side-bar .side-bar-content{
+    list-style-type: none;
+    margin-top: 100px;
+}
+.side-bar .side-bar-content .side-bar-item{
+    margin-bottom: 50px;
+}
+.side-bar-link{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    font-size: 30px;
+}
+.side-bar-link::before{
+    content: '';
+    height:60px;
+    width:5px;
+    background-color: white;
+    position: absolute;
+    left:0px;
+    opacity:0;
+}
+.side-bar-link:hover{
+    color:white;
+    font-size: 40px;
+    transition: 0.25s ease-in-out;
+}
+.side-bar-link:hover:before{
+    left:30px;
+    opacity:100%;
+    transition: 0.25s ease-in-out;
+    color: white;
+}
+
+
+/*========================Card Section==========================*/
+.card-container{
+    margin-top: 50px;
+    margin-left:100px;
+}
+.card{
+    margin:20px 10px 20px 10px;
+    height:350px;
+    width:600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(32, 174, 240, 0.2), 0 6px 20px 0 rgba(40, 18, 121, 0.726);
+    transition: 0.25s;
+}
+.card1,.card3{
+    margin-right: 50px;
+}
+.Card-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.card-body h1.body-text{
+    font-size: 6rem;
+}

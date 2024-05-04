@@ -1,0 +1,75 @@
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    
+}
+h1 {
+    font-family: 'Dosis', sans-serif ;
+    color: black;
+    font-size: 40px;
+    align-items: flex-start;
+}
+
+.contact .flex{
+    padding: 2rem;
+    box-shadow:var(box-shadow);
+    border-radius: .5rem;
+    background: var(transparent-white);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+}
+
+.contact .flex .inputBox{
+    font-family: 'Roboto', sans-serif;
+    flex:1 1 41rem;
+}
+.contact .flex .inputBox span{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(black);
+}
+.contact form .flex .inputBox input,
+.contact form .flex .inputBox textarea,
+.contact form .flex .inputBox select{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border: var(border);
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+.btn_submit-popup{
+    width: 310px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000 ;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.btn_submit-popup:hover{
+    background: #cab7a1;
+    color:#ffffff;
+
+}

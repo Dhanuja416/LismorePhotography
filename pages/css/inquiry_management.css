@@ -1,0 +1,114 @@
+body{
+    background-color: transparent;
+    overflow: auto;
+}
+.header-line{
+    color:aliceblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.6));
+}
+
+.header-line{
+    height:80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.61));
+    color:white;
+    justify-content: space-around;
+    text-align: justify;
+    vertical-align: middle;
+    padding:10px;
+}
+.header-line h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.side-bar{
+    width: 15vw;
+    height:92vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.61));
+    
+    }
+.side-bar .side-bar-content{
+    list-style-type: none;
+    margin-top: 100px;
+}
+.side-bar .side-bar-content .side-bar-item{
+    margin-bottom: 50px;
+}
+.side-bar-link{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    font-size: 30px;
+}
+.side-bar-link::before{
+    content: '';
+    height:60px;
+    width:5px;
+    background-color: white;
+    position: absolute;
+    left:0px;
+    opacity:0;
+}
+.side-bar-link:hover{
+    color:white;
+    font-size: 40px;
+    transition: 0.25s ease-in-out;
+}
+.side-bar-link:hover:before{
+    left:30px;
+    opacity:100%;
+    transition: 0.25s ease-in-out;
+    color: white;
+}
+.form-group{
+    margin-bottom:10px;
+}
+.form-inquiry{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:30px;
+    width:auto;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left:10px;
+    border-radius: 20px;
+}
+
+.confirm-btn{
+    margin-bottom:10px;
+    background-color: blue;
+    color:aliceblue;
+}
+.update-btn{
+    margin-bottom:10px;
+    background-color: blue;
+    color:aliceblue;
+}
+.confirm-btn:hover{
+    background-color: white;
+    color:blue;
+    border: 1px solid blue;
+    transition:0.125s ease-in-out;
+}
+.update-btn:hover{
+    background-color: white;
+    color:blue;
+    border: 1px solid blue;
+    transition:0.125s ease-in-out;
+}
+.reset-btn{
+    background-color: red;
+    color:aliceblue;
+}
+.reset-btn:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid red;
+    transition:0.125s ease-in-out;
+}
+
+.title-text{
+    margin-top: 100px;
+}
+.inq-table{
+    width:100%;
+}
